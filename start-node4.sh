@@ -1,0 +1,3 @@
+#! /bin/bash
+
+./geth --datadir node4 --port 30309 --bootnodes "enode://f6904aac05d3fbb20f3c02900c29d0855246af592a13f6436bac824e9e3adbcc055028b332b7541a930aa9b296c62fa3853dc4928843b4d869f859eb07e59fd8@127.0.0.1:0?discport=30305" --miner.etherbase 0xdb3b48cb5e63f2f121b9b220bc2115f5178902be --mine --networkid 55555 --unlock 0xdb3b48cb5e63f2f121b9b220bc2115f5178902be --password node4/password.txt --authrpc.port 8554
